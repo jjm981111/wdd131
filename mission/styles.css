@@ -6,12 +6,21 @@ body {
     background-color: #f9f9f9;
 }
 
+.dark{
+    background-color: #333;
+    color: white;
+}
+
+.dark .sub-header {
+    color: rgb(160, 212, 237)
+}
+
 /* Container Styling */
 .container {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background: white;
+    /* background: white; */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     line-height: 1.5;
