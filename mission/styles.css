@@ -1,0 +1,68 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.dark{
+    background-color: #333;
+    color: white;
+}
+
+.dark .sub-header {
+    color: rgb(160, 212, 237)
+}
+
+/* Container Styling */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    /* background: white; */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Header Styling */
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Subtitle Styling */
+.sub-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #006EB6;
+    margin-bottom: 20px;
+}
+
+/* Content Styling */
+.content {
+    text-align: left;
+}
+
+.content p {
+    margin: 10px 0;
+}
+
+.content ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.content ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer img {
+    width: 150px;
+    margin-top: 20px;
+}
