@@ -86,8 +86,10 @@ h1 {
 }
 
 .recipe-info {
+    text-align: left;
     padding: 1rem;
     width: 100%;
+    
 }
 
 .recipe-info .description {
@@ -139,7 +141,7 @@ footer {
     }
 
     .recipe-info {
-        text-align: center;
+        text-align: left;
     }
 
     .recipe-info .description {
