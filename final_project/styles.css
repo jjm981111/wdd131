@@ -34,7 +34,7 @@ p {
 .btn {
     display: inline-block;
     background-color: #e63946;
-    color: white;
+    color: black;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -43,6 +43,7 @@ p {
 
 .btn:hover {
     background-color: #ff6b6b;
+    color: white;
 }
 
 input {
@@ -55,7 +56,7 @@ input {
 
 button {
     background-color: #f4a261;
-    color: white;
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -64,9 +65,23 @@ button {
 
 button:hover {
     background-color: #e76f51;
+    color: white;
 }
 
 .back {
     display: block;
     margin-top: 20px;
+}
+
+.start-btn{
+    background-color:black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-btn:hover{
+    background-color: gray;
 }

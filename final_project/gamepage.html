@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,12 +9,15 @@
 <body>
     <div class="container">
         <h1>Guess the NBA Player!</h1>
-        <img src="player-placeholder.jpg" alt="Player silhouette" class="player-img">
-        <input type="text" id="guess" placeholder="Enter player's name">
+        <p>Round <span id="round">1</span> of 10</p>
+        <img id="playerImage" src="player-placeholder.jpg" alt="Guess the player" class="player-img">
+        <input type="text" id="guessInput" placeholder="Enter player's name">
         <button id="submitGuess">Submit Guess</button>
         <p id="feedback"></p>
-        <a href="homepage.html" class="back-btn">Back to Home</a>
+        <p>Score: <span id="score">0</span>/10</p>
+        <a href="homepage.html" class="btn back-btn">Back to Home</a>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
+
